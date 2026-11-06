@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "config_revision": 1,
+  "config_revision": 2,
   "package_name": "com.devapp.qrscanner.qr_scanner_app",
   "global": {
     "maintenance_mode": false,
@@ -59,7 +59,7 @@
       "result_enabled": true,
       "generator_enabled": true,
       "show_delay_seconds": 0,
-      "refresh_seconds": 120
+      "refresh_seconds": 0
     },
     "admob": {
       "app_open_android": "ca-app-pub-3940256099942544/9257395921",
