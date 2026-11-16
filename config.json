@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "config_revision": 3,
+  "config_revision": 4,
   "package_name": "com.devapp.qrscanner.qr_scanner_app",
   "global": {
     "maintenance_mode": false,
@@ -8,14 +8,14 @@
   },
   "android": {
     "min_supported_version_code": 1,
-    "latest_version_code": 8,
+    "latest_version_code": 9,
     "update_mode": "none",
     "update_url": ""
   },
   "links": {
-    "support_email": "",
-    "privacy_policy": "",
-    "terms": ""
+    "support_email": "wenoclyd@gmail.com",
+    "privacy_policy": "https://qr-barcode-scanner-galaxy.ais-life-5025.chatgpt.site/privacy/",
+    "terms": "https://qr-barcode-scanner-galaxy.ais-life-5025.chatgpt.site/terms/"
   },
   "features": {
     "iap_enabled": true,
