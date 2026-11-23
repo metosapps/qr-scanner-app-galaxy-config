@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "config_revision": 4,
+  "config_revision": 5,
   "package_name": "com.devapp.qrscanner.qr_scanner_app",
   "global": {
     "maintenance_mode": false,
@@ -26,38 +26,38 @@
     "advanced_generator_enabled": true
   },
   "kill_switches": {
-    "ads_enabled": false,
+    "ads_enabled": true,
     "iap_enabled": true
   },
   "ads": {
-    "mode": "off",
-    "production_approved": false,
-    "enabled": false,
+    "mode": "production",
+    "production_approved": true,
+    "enabled": true,
     "provider": "admob",
     "app_open": {
-      "enabled": false,
+      "enabled": true,
       "cold_start_enabled": false,
-      "resume_enabled": false,
-      "first_show_delay_seconds": 5,
-      "resume_min_background_seconds": 10,
-      "cooldown_seconds": 60,
+      "resume_enabled": true,
+      "first_show_delay_seconds": 8,
+      "resume_min_background_seconds": 30,
+      "cooldown_seconds": 600,
       "max_per_session": 2,
-      "max_per_day": 10
+      "max_per_day": 6
     },
     "interstitial": {
-      "enabled": false,
-      "first_show_after_scans": 2,
-      "every_n_scans": 3,
-      "cooldown_seconds": 30,
-      "max_per_session": 5,
-      "max_per_day": 20,
+      "enabled": true,
+      "first_show_after_scans": 3,
+      "every_n_scans": 5,
+      "cooldown_seconds": 120,
+      "max_per_session": 3,
+      "max_per_day": 10,
       "show_delay_seconds": 0
     },
     "native": {
-      "enabled": false,
-      "scanner_enabled": false,
-      "result_enabled": false,
-      "generator_enabled": false,
+      "enabled": true,
+      "scanner_enabled": true,
+      "result_enabled": true,
+      "generator_enabled": true,
       "show_delay_seconds": 0,
       "refresh_seconds": 0
     },
